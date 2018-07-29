@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class largenum
+class smallnum
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -21,7 +21,7 @@ class largenum
 		{
 			for(int j=0;j<n-i-1;j++)
 			{
-				if(a[j]<a[j+1])
+				if(a[j]>a[j+1])
 				{
 					int tmp=a[j];
 					a[j]=a[j+1];
