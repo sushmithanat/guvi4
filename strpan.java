@@ -5,14 +5,14 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class strbal
+class strpan
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		String str=sc.next();
-		char ch=sc.next().charAt(0);
+		String ch=sc.next();
 		int n=str.length();
 		String st1="";
 		String st2="";
